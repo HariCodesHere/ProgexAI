@@ -87,7 +87,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/ProgexAI.git
+git clone https://github.com/HariCodesHere/ProgexAI.git
 cd ProgexAI
 
 # Install frontend & backend
