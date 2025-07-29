@@ -77,7 +77,7 @@
 ## 📦 Getting Started
 
 ### Prerequisites
-- Node.js & npm
+- Node.js & pnpm
 - Python 3.x
 - MongoDB
 - GitHub Account
@@ -91,14 +91,15 @@ git clone https://github.com/HariCodesHere/ProgexAI.git
 cd ProgexAI
 
 # Install frontend & backend
-cd client && npm install
-cd ../server && npm install
+# Make sure you are in the root directory
+pnpm install --recursive
 
 # Start the backend
-npm run dev
+pnpm run dev
 
 # Start the frontend (in another terminal)
-cd ../client && npm start
+cd ../client
+pnpm start
 ```
 
 ### GenAI Engine (Python)
